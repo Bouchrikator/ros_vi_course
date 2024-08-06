@@ -1,0 +1,17 @@
+# Ignore build, devel, and install directories
+/build
+/devel
+/install
+
+# Ignore log files and temporary files
+*.log
+*.swp
+*.swo
+
+# Ignore hidden files and directories
+.*
+!/.gitignore
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
